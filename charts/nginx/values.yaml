@@ -45,7 +45,7 @@ ingress:
   annotations: {}
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
-  hosts:
+  hosts: []
     - nginx.techcrumble.cloud
   tls: []
   #  - secretName: chart-example-tls
