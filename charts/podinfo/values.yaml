@@ -5,10 +5,10 @@
 replicaCount: 3
 
 image:
-  repository: stefanprodan
+  repository: stefanprodan/podinfo
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: "4.0.6"
 
 imagePullSecrets: []
 nameOverride: ""
