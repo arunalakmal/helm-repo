@@ -3,7 +3,7 @@ entries:
   httpd:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-09T22:04:48.844625+02:00"
+    created: "2022-08-09T22:17:56.854357+02:00"
     description: A Helm chart for Kubernetes
     digest: c184f9a55e8b766446eb11ccff31d04d7f8f947ab8ae2bf5ec12f8e36fbacc2d
     name: httpd
@@ -14,12 +14,12 @@ entries:
   swdpgadmin:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-09T22:04:48.845673+02:00"
+    created: "2022-08-09T22:17:56.85532+02:00"
     description: A Helm chart for Kubernetes
-    digest: f48c7c5baf70f9fe683710462da182357420d63db07834b26410219591b89072
+    digest: 88211d576fa0def24fd981459bfcd30c5d6492f64f6e17390cfeaf8c9e06a4f1
     name: swdpgadmin
     type: application
     urls:
     - swdpgadmin-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-09T22:04:48.843755+02:00"
+generated: "2022-08-09T22:17:56.853395+02:00"
