@@ -1,0 +1,3 @@
+[submodule "charts/pgadmin-helm-chart"]
+	path = charts/pgadmin-helm-chart
+	url = https://github.com/arunalakmal/pgadmin-helm-chart.git
