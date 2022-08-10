@@ -3,9 +3,9 @@ entries:
   pgadmin:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-10T07:47:00.238321+02:00"
+    created: "2022-08-10T07:54:04.89012+02:00"
     description: A Helm chart for Kubernetes
-    digest: 28d52765a2e3b453797958719da7b1a5337cfc89f32532b26084b0f026b6db17
+    digest: 3959caaddac22cad4cc99f0f8e5c5c7ba3989aedc600ed9525d2fcfdc3d6cba2
     name: pgadmin
     type: application
     urls:
@@ -14,7 +14,7 @@ entries:
   swdpgadmin:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-10T07:47:00.239131+02:00"
+    created: "2022-08-10T07:54:04.890906+02:00"
     description: A Helm chart for Kubernetes
     digest: 88211d576fa0def24fd981459bfcd30c5d6492f64f6e17390cfeaf8c9e06a4f1
     name: swdpgadmin
@@ -22,4 +22,4 @@ entries:
     urls:
     - swdpgadmin-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-10T07:47:00.237307+02:00"
+generated: "2022-08-10T07:54:04.889151+02:00"
