@@ -1,20 +1,9 @@
 apiVersion: v1
 entries:
-  new-tenents:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2022-09-02T20:10:03.573474+02:00"
-    description: A Helm chart for Kubernetes
-    digest: f4748847116c802d614427f5b71f4daa12c1a56bf108099c778b26f4f19a964a
-    name: new-tenents
-    type: application
-    urls:
-    - new-tenents-0.1.0.tgz
-    version: 0.1.0
   pgadmin:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-09-02T20:10:03.574442+02:00"
+    created: "2022-09-02T20:33:20.227834+02:00"
     description: A Helm chart for Kubernetes
     digest: 3959caaddac22cad4cc99f0f8e5c5c7ba3989aedc600ed9525d2fcfdc3d6cba2
     name: pgadmin
@@ -25,7 +14,7 @@ entries:
   swdpgadmin:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-09-02T20:10:03.575274+02:00"
+    created: "2022-09-02T20:33:20.228629+02:00"
     description: A Helm chart for Kubernetes
     digest: 88211d576fa0def24fd981459bfcd30c5d6492f64f6e17390cfeaf8c9e06a4f1
     name: swdpgadmin
@@ -33,4 +22,19 @@ entries:
     urls:
     - swdpgadmin-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-02T20:10:03.572113+02:00"
+  tenants:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-09-02T20:33:20.229322+02:00"
+    description: A Helm chart for Tenant Management Kubernetes
+    digest: 8655147dd07e09575e2ad3b2bd74cbc9e6660a2eed628acb61cb6566c97eabf0
+    maintainers:
+    - email: arunarandunu@gmail.com
+      name: Aruna Lakmal
+      url: https://github.com/arunalakmal
+    name: tenants
+    type: application
+    urls:
+    - tenants-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-09-02T20:33:20.226811+02:00"
