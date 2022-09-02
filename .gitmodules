@@ -1,3 +1,6 @@
 [submodule "charts/pgadmin-helm-chart"]
 	path = charts/pgadmin-helm-chart
 	url = https://github.com/arunalakmal/pgadmin-helm-chart.git
+[submodule "charts/tenant-helm-chart"]
+	path = charts/tenant-helm-chart
+	url = https://github.com/arunalakmal/tenant-helm-chart.git
