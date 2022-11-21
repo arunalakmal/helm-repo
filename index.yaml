@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  avp:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-11-21T13:57:33.409451+01:00"
+    description: A Helm chart for Kubernetes
+    digest: d877eccba50a30686316195d48f067335a127bf9c18a888ed7e2b436017e99b1
+    name: avp
+    type: application
+    urls:
+    - avp-0.1.0.tgz
+    version: 0.1.0
   pgadmin:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-09-02T20:50:27.387774+02:00"
+    created: "2022-11-21T13:57:33.411211+01:00"
     description: A Helm chart for Kubernetes
     digest: 3959caaddac22cad4cc99f0f8e5c5c7ba3989aedc600ed9525d2fcfdc3d6cba2
     name: pgadmin
@@ -14,7 +25,7 @@ entries:
   swdpgadmin:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-09-02T20:50:27.389885+02:00"
+    created: "2022-11-21T13:57:33.412281+01:00"
     description: A Helm chart for Kubernetes
     digest: 88211d576fa0def24fd981459bfcd30c5d6492f64f6e17390cfeaf8c9e06a4f1
     name: swdpgadmin
@@ -25,7 +36,7 @@ entries:
   tenants:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-09-02T20:50:27.390772+02:00"
+    created: "2022-11-21T13:57:33.413389+01:00"
     description: A Helm chart for Tenant Management Kubernetes
     digest: 788c84fa2261b08a34f1a51bbe0ff903675f4c6373e54c7fa7b6de8a4b0a3370
     maintainers:
@@ -37,4 +48,4 @@ entries:
     urls:
     - tenants-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-02T20:50:27.386454+02:00"
+generated: "2022-11-21T13:57:33.408517+01:00"
