@@ -1,0 +1,25 @@
+# Global
+namespace: dev
+project: avp
+# Deployment
+appName: avp
+# secretName: cad-agent-secret
+swdShareName: swd-share
+rapidShareName: rapid-share
+image: repo/image:1.0.0
+rootPath: /mnt/swd/
+keyVaultUrl: https://akv.vault.azure.net
+threadSleep: 5
+# Secrets
+keyVault: akv
+secrets:
+  ACCOUNT_KEY: account-key
+  APPLICATION_INSIGHTS_CONNECTION_STRING: application-insights-connection-string
+  DATABASE_URL: postgres-connection-string
+  azurestorageaccountkey: account-key
+  SAS-TOKEN-DURATION: sas-token-duration
+  SHARE-NAME: share-name
+  azurestorageaccountname: storage-account
+# ServiceAccount
+serviceAccount:
+  automountServiceAccountToken: false
